@@ -1,0 +1,82 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
+local Window = OrionLib:MakeWindow({Name = "小交", HidePremium = false, SaveConfig = false, ConfigFolder = "小交248"})
+
+local Tab = Window:MakeTab({
+	Name = "不完全通用功能",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--分类
+
+Tab:AddButton({
+	Name = "飞行",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  	end    
+})
+
+--按钮
+--我们在试一下
+
+local Tab = Window:MakeTab({
+	Name = "巴掌模拟器",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "小交汉化",
+	Callback = function()
+    loadstring(game:HttpGet("https://github.com/xiaojiao248/roblox-bazhangmoniqi/blob/1d0af97b1c7322c7043ca3f8802c92ea851e0d56/%E5%B7%B4%E6%8E%8C%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%B0%8F%E4%BA%A4%E6%B1%89%E5%8C%96.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "指令脚本透视 自动击打 击打光环 防击飞 防死神 防推飞 踏空 关 速度提升",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/longshulol/long/main/longshu/bazhang"))()
+  	end    
+--懂了吗
+
+local Tab = Window:MakeTab({
+	Name = "付费脚本",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "白脚本",
+	Callback = function()
+    _G["白脚本作者修狗"]="xdjhadgdsrfcyefjhsadcctyseyr6432478rudghfvszhxcaheey"loadstring(game:HttpGet(('https://raw.githubusercontent.com/wev666666/baijiaobengV2.0beta/main/%E7%99%BD%E8%84%9A%E6%9C%ACbeta'),true))() 
+  	end    
+
+local Tab = Window:MakeTab({
+	Name = "监狱人生",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "可能是外国的",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+  	end    
+  	
+  	Tab:AddButton({
+	Name = "moon hub",
+	Callback = function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/Gae7YC84"))();
+  	end    
+  	
+  	local Tab = Window:MakeTab({
+	Name = "造船寻宝",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "不知道是不是英文",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
+  	end    
+  	
